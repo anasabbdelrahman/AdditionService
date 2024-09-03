@@ -1,0 +1,15 @@
+{
+  "name": "async_addition",
+  "version": "1.0.0",
+  "description": "In this assignment, we need you to implement an API that exposes our internal API that performs addition of two numbers. Unfortunately the implementation of the addition service is a mixture of a synchronous rest interface and results on a kafka topic.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kafka-node": "^5.0.0"
+  }
+}
